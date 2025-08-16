@@ -12,7 +12,7 @@ add_one(6)
 # And let's see it printed out:
 
 print("add_one(6) returns:")
-print(add_one(6))
+print(add_one(5))
 
 # @TASK: Run this code in the terminal:
 #

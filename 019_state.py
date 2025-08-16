@@ -14,3 +14,5 @@ print(f"b is {b}")
 # Was it what you expected?
 
 # Try to puzzle it out, and then move on to 020_state_tables.py
+# Guessing that: a is 20. b is 20?
+# Guessed correctly. Output is 20 for both.

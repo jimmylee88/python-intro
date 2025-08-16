@@ -27,10 +27,11 @@ added = 2 + 3
 #
 # Or do we multiply 3 * 4 to get 12, then add 2 to get 14?
 #
-# @TASK: You can find out by running `python` in your terminal and typing that code
+# @TASK: You can find out by running `python3` in your terminal and typing that code
 # into it. You'll see something like this:
 #
 # ```
+
 # Python 3.10.9 (main, Dec 15 2022, 10:44:50) [Clang 14.0.0 (clang-1400.0.29.202)] on darwin
 # Type "help", "copyright", "credits" or "license" for more information.
 # >>> 2 + 3 * 4
@@ -43,12 +44,12 @@ added = 2 + 3
 # So we get 14! Python executes the multiplication first, and then the addition.
 # We can control this using brackets.
 #
-# @TASK: Try this using `python` in the terminal:
+# @TASK: Try this using `python3` in the terminal:
 
 (2 + 3) * 4
 
 # As you can see, we can use brackets to control the order the expressions are
-# evaluated.
+# evaluated. Brackets make the sub expression happen first, before the multiplication.
 
 # That handy "`python` in the terminal" thing is called the Python REPL. REPL
 # stands for Read, Evaluate, and Print Loop. It reads the code you type in,
@@ -75,13 +76,13 @@ add_one(4) * 3      # Evaluates to 15
 # calls into some very advanced expressions.
 
 # @TASK: Try those expressions yourself. Run:
-#
-#   python -i 017_expressions.py
+#   exit() to exit REPL
+#   python3 -i 017_expressions.py
 #
 # And then type in some of the above expressions.
 #
 # The `-i` flag means 'open a REPL that can use the code in this file'
-
+# -i runs python in an interactive mode in the terminals
 # To finish off, here's a real mind-bender:
 
 add_one(add_one(add_one(add_one(add_one(add_one(1))))))

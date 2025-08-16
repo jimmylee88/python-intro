@@ -8,7 +8,7 @@ added = 2 + 3
 #
 # That statement uses the `=` operator to assign the result of the expression on
 # the right (`2 + 3`) to the name on the left (`added`).
-#
+# = assignment operator
 # It's called a statement because it changes the 'state' of the program.
 #
 # What's the state of a program? Let's take a look at an example.

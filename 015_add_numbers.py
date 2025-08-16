@@ -1,17 +1,20 @@
 from lib.helpers import check_that_these_are_equal
+# import library
 
 # Video alternative: https://vimeo.com/954334235/902b0b036d#t=444
 
 # @TASK: Now you try. Here's an exercise for you:
 #
 # Write a function called `add_numbers` that:
-#
+
 # * Takes two numbers as input
 # * Adds them together
 # * Returns the result
 
 # YOUR FUNCTION GOES BELOW THIS LINE
 
+def add_numbers(num_a, num_b):
+    return num_a + num_b 
 
 
 # YOUR FUNCTION GOES ABOVE THIS LINE
