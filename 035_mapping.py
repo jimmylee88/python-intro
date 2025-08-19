@@ -16,7 +16,7 @@ from lib.helpers import check_that_these_are_equal
 
 words = ['I', 'need', 'another', 'five', 'years']
 
-first_letters = [] # This is our accumulator again
+first_letters = [] # This is our accumulator again - accumulates new items in list
 
 for word in words: # We go through each word
   first_letter = word[0] # Get the first letter
@@ -35,7 +35,10 @@ print("Function: add_one_hundred_to_numbers")
 
 # Return a new list of each number with 100 added
 def add_one_hundred_to_numbers(numbers):
-  pass
+  new_number = []
+  for number in numbers:
+    new_number.append(number + 100)
+  return new_number
 
 check_that_these_are_equal(
   add_one_hundred_to_numbers([1, 2, 3, 4]), [101, 102, 103, 104])
