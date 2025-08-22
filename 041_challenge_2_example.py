@@ -132,8 +132,8 @@ def play_game():
     print("It's " + player + "'s turn.")
     # `input` asks the user to type in a string
     # We then need to convert it to a number using `int`
-    row = int(input("Enter a row: "))
-    column = int(input("Enter a column: "))
+    row = int(input("Enter a row between 0 & 2: "))
+    column = int(input("Enter a column between 0 & 2: "))
     board = make_move(board, row, column, player)
     if player == "X":
       player = "O"
